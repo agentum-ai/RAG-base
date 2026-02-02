@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# FAISS индексы (большие файлы)
+faiss_index/
+*.index
+
+# API ключи и secrets (НИКОГДА не выкладывать!)
+.env
+.env.local
+secrets.toml
+*.key
+*.pem
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# LangChain кеш
+.langchain_cache/
+
+# MacOS
+.DS_Store
+Thumbs.dbapi_key.txt 
